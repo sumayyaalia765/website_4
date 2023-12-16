@@ -1,0 +1,396 @@
+/* font */
+/* Nimbus Sans L  */
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: "Nimbus Sans L";
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+}
+
+#hero {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.nav {
+    position: relative;
+    padding: 1vw 4vw 0vw 4vw;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nleft {
+    display: flex;
+    gap: 5vw;
+    width: 34%;
+    display: flex;
+    align-items: center;
+}
+
+.ncenter {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.nright {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 27%;
+}
+
+h5 {
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+#home {
+    display: flex;
+    height: 150vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 4vw 0vw 4vw;
+    width: 100%;
+}
+
+#firstsection p {
+    padding: 0.8vw 0vw;
+    line-height: 1;
+    font-weight: 200;
+    font-size: 0.9vw;
+}
+
+.imgsec1 {
+    width: 10.5vw;
+    height: 15vw;
+}
+
+.imgsec1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#secondsection {
+    position: relative;
+    width: 30vw;
+    height: 40vw;
+}
+
+.sec2head {
+    top: -23%;
+    left: -15%;
+    z-index: 99;
+    position: absolute;
+}
+
+.sec2head h1 {
+    font-size: 6vw;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: -4px;
+}
+
+#visitdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.arrowiconcircle {
+    display: flex;
+    border: 1px solid rgb(43, 40, 40);
+    align-items: center;
+    justify-content: center;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+}
+
+.arrowiconcircle i {
+    color: rgb(27, 26, 26);
+}
+
+#visitdown h3 {
+    font-size: 1.3vw;
+    font-weight: 300;
+    color: rgb(34, 32, 32);
+}
+
+.img2sec {
+    width: 100%;
+    height: 100%;
+}
+
+.img2sec img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+#secondsection h3 {
+    margin-top: 1vw;
+    font-size: 1.3vw;
+    font-weight: 200;
+}
+
+.motivesection {
+    padding: 1vw 4vw 0vw 4vw;
+    height: 40vh;
+    width: 100%;
+}
+
+.motivesection h3 {
+    padding-left: 2vw;
+    font-size: 1.4vw;
+    font-weight: 200;
+    color: #000000;
+    letter-spacing: -1px;
+    opacity: 0.7;
+}
+
+.paradiv {
+    margin-top: 2vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.paradiv p {
+    line-height: 2.4vw;
+    width: 85vw;
+    height: 10vw;
+    text-align: right;
+    font-size: 1.6vw;
+    letter-spacing: -1px;
+    font-weight: 400;
+}
+
+.paradiv p span {
+    margin-bottom: -0.5vw;
+    display: inline-block;
+    margin-right: 0.8vw;
+    margin-left: 0.8vw;
+    border-radius: 100px;
+}
+
+.span01 {
+    width: 3.4vw;
+    height: 2vw;
+    background-image: url(./Assets/bluegirl.jpg);
+    background-size: cover;
+    background-position: 0% 55%;
+}
+
+.span02 {
+    background-position: 0% 55%;
+    width: 4.3vw;
+    height: 2.3vw;
+    background-image: url(./Assets/shaljam.jpg);
+    background-size: cover;
+}
+
+.span03 {
+    background-position: 0% 55%;
+    width: 4vw;
+    height: 2.4vw;
+    background-image: url(./Assets/grass.jpg);
+    background-size: cover;
+}
+
+.imagesec {
+    padding: 1vw 4vw 0vw 4vw;
+    width: 100%;
+    margin-top: 4vw;
+    justify-content: space-around;
+    align-items: flex-start;
+    display: flex;
+    height: 90vh;
+}
+
+.imgsection1 img {
+    width: 15vw;
+    object-fit: cover;
+    height: 25vw;
+}
+
+.imgsection2 img {
+    width: 19vw;
+    object-fit: cover;
+    height: 35vw;
+}
+
+.imgsection1 p {
+    line-height: 1.4vw;
+    padding-top: 0.6vw;
+    opacity: 0.9;
+    letter-spacing: -0.3px;
+    width: 20vw;
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+
+.imgsection2 p {
+    letter-spacing: -0.3px;
+    line-height: 1.4vw;
+    padding-right: 0.9vw;
+    opacity: 0.9;
+    text-align: right;
+    padding-top: 0.6vw;
+    width: 20vw;
+    height: 10vh;
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+
+.imgsection1 h1 {
+    font-weight: 500;
+    letter-spacing: -1.5px;
+    font-size: 2vw;
+}
+
+.imgsection2 h1 {
+    letter-spacing: -1.5px;
+    padding-right: 0.9vw;
+    text-align: right;
+    font-weight: 500;
+    font-size: 2vw;
+}
+
+.secondlastsec {
+    margin-top: 8vw;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slastleft {
+    position: relative;
+    height: 90%;
+    width: 70%;
+}
+
+.slastleft img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#slastimg1 {
+    position: absolute;
+    z-index: 2;
+}
+
+#slastimg2 {
+    position: absolute;
+    z-index: 1;
+}
+
+.slastright {
+    padding-right: 2vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 90%;
+}
+
+.slastright h1 {
+    line-height: 32px;
+    font-size: 2.2vw;
+    font-weight: 500;
+}
+
+.slastright p {
+    padding-top: 1vw;
+    width: 23vw;
+}
+
+.package {
+    padding-top: 2vw;
+}
+
+#lastsection {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vw;
+    height: 105vh;
+    width: 100%;
+}
+
+#lastsection video {
+    position: absolute;
+    opacity: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#lastsection .textvideo {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+}
+
+.textvideo button {
+    margin: 1vw;
+    border-radius: 10vw;
+    background-color: rgba(146, 145, 145, 0.5);
+    border: none;
+    font-size: 1vw;
+    width: 12vw;
+    height: 8vh;
+    color: rgb(75, 73, 73);
+}
+
+.textvideo {
+    border-radius: 2%;
+    padding: 2vw 4vw;
+    background-color: rgba(255, 255, 255, 0.651);
+}
+
+.textvideo h1 {
+    font-weight: 400;
+    font-size: 2vw;
+}
+
+.inactive {
+    opacity: 0;
+}
+
+.active {
+    opacity: 1;
+}
